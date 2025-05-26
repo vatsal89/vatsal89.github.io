@@ -1,0 +1,12 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "No build required for static HTML"
+
+artifacts:
+  files:
+    - '**/*'
+  base-directory: '.' # Use root directory since there's no build process
+
